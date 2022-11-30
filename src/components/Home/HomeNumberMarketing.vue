@@ -22,19 +22,21 @@
       <span id="number-none">(실사례이나, 모든 설문에 해당되지는 않음)</span>
     </p>
   </div>
-  
-
 </div>
 </template>
 
 <script>
-import { collection, doc, getDoc, getDocs, getFirestore, setDoc } from "firebase/firestore"
+import { collection, doc, getDoc, getDocs, getFirestore, setDoc, query, where } from "firebase/firestore"
 
 export default {
   data() {
     return {
       survey : "• • •",
-      
+      totalCount : 0,
+      maleCount: 0,
+      femaleCount: 0,
+      maleAges: [],
+      femaleAges : []
     }
   },
   mounted() {
@@ -49,9 +51,9 @@ export default {
         
         this.survey = docSnap.data().lastIDChecked + 57 + "개"
       }
-      
-    }
-  },
+    },
+
+  }
 
 }
 </script>
