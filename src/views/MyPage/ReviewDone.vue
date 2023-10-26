@@ -37,9 +37,8 @@ export default {
 
 <style>
 #ReviewDone{
-  height: 600px;
-  margin-top: 100px;
-  
+  margin: 100px auto 100px auto;
+  text-align: center;
 }
 #ReviewDone .review-tit{
   font-family: 'Noto Sans KR', sans-serif;
