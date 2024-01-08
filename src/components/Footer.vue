@@ -2,15 +2,18 @@
 	<div class="container">
 	<div class="footer">
 		<div class="row justify-content-between bg-gray m-3">
-            <div class="col-lg-2 col-md-4 col-6 mb-4">
+            <div class="col-lg-3 col-md-4 col-6 mb-4">
                 <div class="row align-items-center mt-5 text-left text-md-start">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled" >
                             <li class="mb-4"><router-link to="/">
                             <img loading="prelaod" decoding="async" class="img-fluid" width="160" src="@/assets/logo.png" alt="surveasy">
                             </router-link>
                             </li>
-                            <li class="text-left mb-2 text-secondary">서베이지</li>
-                            <li class="text-left mb-2 text-secondary">official@gosurveasy.com</li>
+                            <li class="text-left mb-2 text-secondary">턴업컴퍼니 사업자 정보</li>
+														<li class="text-left mb-2 text-secondary">대표자: 송다예</li>
+														<li class="text-left mb-2 text-secondary">사업자 등록번호: 369-16-01796</li>
+                            <li class="text-left mb-2 text-secondary">주소: 서울특별시 성동구 상원길 63</li>
+														<li class="text-left mb-2 text-secondary">이메일: official@gosurveasy.com</li>
                             <li class="text-left mb-2 text-secondary"><router-link to="/terms1">이용약관</router-link></li>
                             <li class="text-left mb-2 text-secondary"><router-link to="/terms2">개인정보처리방침</router-link></li>
                         </ul>
@@ -54,13 +57,13 @@
 				</div>
 			</div>
 
-      	<div class="col-lg-2 col-md-6 col-6 mb-4">
+      	<!-- <div class="col-lg-2 col-md-6 col-6 mb-4">
 		  <div class="row align-items-center mt-5 text-left text-md-start">
 			<ul class="list-unstyled list-inline mb-0 social-icons">
 				<span class="footer-icon"><img class="footerimg" src="@/assets/Footer/IHEI.jpg" width="140"></span>
 			</ul>
           </div>
-        </div>
+        </div> -->
 		<div class="col-lg-2 col-md-6 col-6 mb-4">
 		  <div class="row align-items-center mt-5 text-left text-md-start">
 			<ul class="list-unstyled list-inline mb-0 social-icons">
